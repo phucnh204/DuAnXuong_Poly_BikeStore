@@ -1,0 +1,71 @@
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box-content{
+    width: 30%;
+    background-color: white;
+    box-shadow: 1px 1px 20px 0px;
+    border-radius: 10px;
+}
+.btn-Dangky{
+    background-color: #e95211;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.btn-Dangky:hover {
+    background-color: white;
+    color: #e95211;
+    border: 1px solid #e95211;
+}
+.line-box{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line-box .line{
+    background: #e95211;
+    width: 20%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+  }
+  .text-color{
+    color: #e95211;
+    text-decoration: none;
+  }
+  .text-right{
+    text-align: right;
+    width: 100%;
+  }
+  .QuenMK{
+    text-decoration: none;
+    color: darkgrey;
+  }
+  .DangKy{
+    text-decoration: none;
+    color: darkgrey;
+  }
+  .text-right .QuenMK:hover{
+    color: #e95211;
+  }
+  .text-right .DangKy:hover{
+    color: #e95211;
+  }
+  .validateCheck{
+    text-align: left;
+  }
